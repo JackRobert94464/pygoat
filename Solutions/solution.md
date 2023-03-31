@@ -282,7 +282,7 @@ This Lab consists of a Page that has some content only available to for the admi
 
 If we check the cookie we see that it is base64 encoded, on decoding we realise it is pickle serialised and we can see some attributes, can you change the attributes to make the page readable?
 
-Try to flip the bit of the admin from ```...admin\x94K\x00... to ...admin\x94K\x00...```
+Try to flip the bit of the admin from ```...admin\x94K\x00... to ...admin\x94K\x01...```
 
 ## A9:Using Components with Know Vulnerability
 
